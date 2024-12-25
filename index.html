@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>Design Layout</title>
+</head>
+<body>
+    <div class="container">
+
+        <nav>
+           <!-- Nav Bar -->
+            <div class="item">
+                <a href="#"><i class="fas fa-gear"></i> Setting</a>
+                <a href="#"><i class="fas fa-user"></i> Account</a>
+                <a href="#"><i class="fas fa-envelope"></i> Messages</a>
+                <a href="#"><i class="fas fa-star"></i> Favourite</a>
+            </div>
+            
+          <!-- Nav Bar(right side) -->
+            <div>
+                <label for="info">Me</label>
+                <select id="info">
+                    <option value=""></option>
+                    <option value="profile">Profile</option>
+                    <option value="logout">Logout</option>
+                </select>
+            </div>
+        </nav>
+
+       <!-- Menu Box -->
+        <div class="menu">
+            <h2>Menu Box</h2>
+            <div class="menu_item">
+            <a href=""><i class="fa-regular fa-envelope"></i> Message</a>
+            <a href=""><i class="fa-solid fa-calendar-days"></i> Events</a>
+            <a href=""><i class="fa-solid fa-gear"></i>Setting</a>
+            <a href=""><i class="fa-solid fa-chart-simple"></i>Statistic</a>
+            </div>
+           
+        </div>
+        <!-- profile image part-->
+        <div class="info">
+            <img src="src/avater.avif" alt="">
+            <h3>Anne Hathaway</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quod est debitis? </p>
+            <div class="gap"></div>
+            
+        </div>
+        <!-- Newsletter -->
+        <div class="newsletter">
+            <h4>JOIN THE NEWSLETTER</h4>
+            <input type="email" placeholder="yourname@gmail.com" class="email">
+            <br>
+            <button class="button">SUBSCRIBE</button>
+            </div>
+
+            <!-- Sign in section -->
+
+            <div class="sign_In">
+                <h4>SIGN IN TO YOUR ACCOUNT</h4>
+                <input type="email" placeholder="yourname@gmail.com" class="email_In">
+                <input type="password" name="" id="password" placeholder="Password">
+                <button class="sign">SIGN IN</button>
+                <h5>Forget Password?</h5>
+                <div class="sign_footer">
+                    <a href=""><i class="fa-brands fa-facebook"></i> Sign in with facebook</a>
+                </div>
+                
+            </div>
+
+            <!-- Audience stats -->
+
+            <div class="os">
+                <h4>OS AUDIENCE STATS</h4>
+                <div class="circle">
+                    <div class="text">
+                        <p>JUNE</p>
+                        <p>2013</p>
+                    </div>
+                </div>
+               
+            </div>
+
+<!-- Add event section -->
+        <div class="event_container">
+                <div class="day_header">
+                  <button class="nav_button">&#8249;</button>
+                  <h2>Wednesday</h2>
+                  <button class="nav_button">&#8250;</button>
+                </div>
+                <div class="day_content">
+                  <span class="day_number">26</span>
+                  <button class="add_event_button">Add Event</button>
+                </div>
+              </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Farhana Haque</p>
+        </div>
+    </div>
+</body>
+</html>
